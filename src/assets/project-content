@@ -1,0 +1,87 @@
+Weather Application
+Project Description
+
+<p>The Weather Application is a dynamic web solution providing real-time weather updates. It features:</p>
+
+Responsive Design: Ensures optimal viewing on various devices.
+Dynamic Data Handling: Efficiently manages real-time data.
+API Integration: Fetches weather data from a reliable API.
+User Interaction: Allows input for city-specific weather conditions.
+Error Handling: Manages incorrect inputs and API errors gracefully.
+Technologies Used:
+HTML5
+CSS3
+JavaScript
+API Integration
+
+---------------------------------------------------------------------------------------------------------------------
+
+Currency Converter
+Project Description
+The Currency Converter application offers seamless currency conversion with key features including:
+
+User-Friendly Interface: Intuitive and responsive design.
+Real-Time Conversion: Updates conversion rates dynamically.
+API Integration: Fetches accurate exchange rates from a trusted API.
+Multiple Currencies: Supports a wide range of currencies.
+Dynamic Data Handling: Automatically updates conversion results.
+Technologies Used:
+HTML5
+CSS3
+JavaScript
+API Integration
+
+---------------------------------------------------------------------------------------------------------------------
+
+Drum Kit
+Project Description
+The Drum Kit application provides an interactive musical experience with features such as:
+
+Interactive Design: Visually appealing and user-friendly interface.
+Sound Integration: Links buttons and keys to specific drum sounds.
+Keyboard Event Listening: Plays sounds via keyboard inputs.
+Click Event Handling: Produces sounds on button clicks.
+Responsive Layout: Compatible with various devices.
+Technologies Used:
+HTML5
+CSS3
+JavaScript
+
+---------------------------------------------------------------------------------------------------------------------
+
+ToDo List
+Project Description
+<p>The ToDo List application is an efficient task management tool featuring:</p>
+
+<ul>
+<li><span>Task Management:</span> Add, delete, and mark tasks as completed.</li>
+<li><span>Local Storage Integration:</span> Saves tasks persistently in the browser.</li>
+<li><span>Interactive UI:</span> Clean, responsive, and interactive design.</li>
+<li><span>Dynamic Updates:</span> Adds and removes tasks dynamically.</li>
+<li><span>User Feedback:</span> Provides visual feedback for tasks.</li>
+</ul>
+
+
+Technologies Used:
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>Local Storage</li>
+</ul>
+---------------------------------------------------------------------------------------------------------------------
+
+Portfolio
+Project Description
+The Portfolio project showcases professional work with features including:
+
+Responsive Design: Ensures a great look on all devices.
+CSS Animations: Enhances user experience with subtle animations.
+Interactive Elements: Adds smooth scrolling and dynamic content.
+Project Showcase: Displays projects, skills, and contact information.
+Customization: Easy updates for new content and styling.
+Technologies Used:
+HTML5
+CSS3
+CSS Animations
+JavaScript

@@ -1,0 +1,144 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+    animation: Opacity .8s linear;
+}
+
+@keyframes Opacity {
+    from {
+        opacity: .2;
+    } to {
+        opacity: 1;
+    }
+}
+
+.hero img {
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    animation: fromTop .5s linear;
+    /* border: 5px solid white;
+    background-color: var(--bg-color);
+    background-image: url(../../assets/HariharanBg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+@keyframes fromTop {
+    from {
+        opacity: .2;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: .2;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.hero h1 {
+    text-align: center;
+    width: 60%;
+    font-size: 53px;
+    font-weight: 600;
+    animation: fromBottom 0.5s linear;
+}
+
+.hero h1 span {
+    background: linear-gradient(-45deg, var(--gradient1) 10%, var(--gradient2) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero h4 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    animation: fromBottom .6s linear;
+}
+
+.hero p {
+    width: 55%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    animation: fromBottom .7s linear;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hero-connect {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(-45deg, var(--gradient1) .29%, var(--gradient2) 79.28%);
+    border: 2px solid var(--bg-color);
+    cursor: pointer;
+}
+
+.hero-connect:hover {
+    border: 2px solid #fff;
+}
+
+.hero-resume {
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero-resume:hover {
+    border-color: var(--gradient2);
+}
+
+
+@media(max-width: 768px) {
+    .hero img {
+        margin-top: 40px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero h1 {
+        margin-top: 15px;
+        width: 90%;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .hero p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .hero-action {
+        gap: 15px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+}
